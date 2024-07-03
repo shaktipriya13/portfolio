@@ -1,0 +1,4 @@
+1. write 'npm run dev' in terminal, press enter and follow the link of Local to see ur website
+2. here we have configured tailwind CSS with our React App
+3. to add symbols we imported React symbols and to add animation we used framerMotionLibrary
+start from 16:33
