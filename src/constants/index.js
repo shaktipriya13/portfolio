@@ -3,10 +3,22 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. Explore my portfolio to see how I bring creativity and technical prowess together to build solutions that not only meet but exceed expectations. Let's connect and create something amazing together!`;
+export const HERO_CONTENT = `Hey there! I'm Shakti Priya, an aspiring software engineer with a keen interest in crafting exceptional web experiences. With expertise in the MERN stack (MongoDB, Express.js, React, and Node.js), I thrive on bringing ideas to life through clean, efficient, and scalable code. My journey in software development began with a curiosity to understand how technology shapes our world. Since then, I've immersed myself in the world of web development, honing my skills in both front-end and back-end technologies. Let's connect and create something amazing together!`;
 
-export const ABOUT_TEXT = `As a 3rd-year student at IIIT Ranchi with a CGPA of 7.1, I am dedicated to improving my academic performance while continually honing my skills in web development. My journey reflects my commitment to learning and my determination to excel in both my studies and my technical expertise.I am committed to continuous learning and growth in this dynamic field, aspiring to contribute innovative solutions and create impactful projects that leverage the latest technologies. My enthusiasm for web development drives me to explore new frameworks, languages, and techniques, empowering me to create robust and user-friendly web applications.
+export const ABOUT_TEXT = `
+  I am a 3rd-year B.Tech student pursuing Computer Science and Engineering at IIIT Ranchi, with a deep passion for web development. 
+  With a CGPA of <span style="color: #FF5733;">7.91</span> in my 3rd year, I am dedicated to excelling in my studies while simultaneously honing my skills in web development.
+  <br/><br/>
+  My academic journey reflects my commitment to excellence, highlighted by a remarkable 10th-grade percentage of 
+  <span style="color: #FFD700;">97.8%</span> from Bridgeford School, Ranchi, and a 12th-grade percentage of 
+  <span style="color: #007BFF;">88.6%</span> from Greenland Public School, Ranchi.
+  <br/><br/>
+  I am committed to continuous learning and growth in this dynamic field, aspiring to contribute innovative solutions and 
+  create impactful projects that leverage the latest technologies. My enthusiasm for web development drives me to explore 
+  new frameworks, languages, and techniques, empowering me to create robust and user-friendly web applications.
 `;
+
+
 
 export const EXPERIENCES = [
   {
@@ -64,8 +76,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Tailwind"],
-    live: "https://your-portfolio-live-url.com/", // Replace with your actual live site URL
-    github: "https://github.com/your-username/portfolio", // Replace with your actual GitHub repo URL
+    live: "https://shaktipriya.netlify.app/", // Replace with your actual live site URL
+    github: "https://github.com/shaktipriya13/portfolio", // Replace with your actual GitHub repo URL
   },
   {
     title: "Netflix Clone",

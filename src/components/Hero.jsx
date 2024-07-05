@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/pic.jpeg";
-import resume from "../assets/resume.pdf"; // Make sure the path to your PDF is correct
+import resume2 from "../assets/resume2.pdf"; // Make sure the path to your PDF is correct
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -46,8 +46,8 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              href={resume}
-              download="Shakti_Priya_Resume.pdf"
+              href={resume2}
+              download="Shakti_Priya_Resume2.pdf"
               className="mt-4 inline-block bg-purple-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-purple-600 transition-colors duration-300"
             >
               Download Resume
